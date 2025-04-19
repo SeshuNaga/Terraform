@@ -1,0 +1,17 @@
+# Ignore log files  
+*.terraform
+
+# Ignore compiled files  
+*.o  
+*.devcontainer 
+
+# Ignore specific files  
+secret.txt  
+
+# Ignore entire directories  
+node_modules/  
+build/  
+
+# Ignore everything in the temp directory except temp/keep.txt  
+temp/*  
+!temp/keep.txt  
