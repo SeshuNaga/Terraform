@@ -18,3 +18,17 @@ temp/*
 !temp/keep.txt  
 
 IAM User creation/terraform.tfstate
+
+
+# Ignore Terraform state files  
+*.tfstate  
+*.tfstate.*  
+
+# Ignore Terraform backup files  
+*.tfstate.backup  
+
+# Ignore conflict files  
+*.tfstate.lock.info  
+
+# Ignore sensitive variables file (if you use one)  
+*.tfvars  
