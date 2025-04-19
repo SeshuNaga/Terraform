@@ -15,3 +15,5 @@ build/
 # Ignore everything in the temp directory except temp/keep.txt  
 temp/*  
 !temp/keep.txt  
+
+IAM User creation/terraform.tfstate
