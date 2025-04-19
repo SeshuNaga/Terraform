@@ -4,6 +4,7 @@
 # Ignore compiled files  
 *.o  
 *.devcontainer 
+*.tfstate
 
 # Ignore specific files  
 secret.txt  
